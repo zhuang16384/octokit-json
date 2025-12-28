@@ -9,7 +9,25 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.0.3",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
     "typescript": "~5.9.3",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vite-plugin-solid": "^2.11.10"
+  },
+  "dependencies": {
+    "@kobalte/core": "^0.13.11",
+    "@tanstack/solid-virtual": "^3.13.13",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-solid": "^0.562.0",
+    "monaco-editor": "^0.55.1",
+    "solid-js": "^1.9.10",
+    "split.js": "^1.6.5",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
